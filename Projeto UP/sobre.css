@@ -1,10 +1,59 @@
 @charset "UFT-8";
 
+* {
+
+  font-family: Poppins, sans-serif ;
+
+}
+
+#h1sobre{
+  font-size: 5dvh;
+}
+
+.oquefazemos{
+  padding-left: 3dvh;
+  padding-right: 3dvh;
+}
+
+.textodoquefazemos{
+  color:#086B67;
+  background-color: #fffbde;
+  padding: 3dvh;
+  border-radius: 3%;
+}
+
+.ajudar{
+  padding-left: 3dvh;
+  padding-right: 3dvh;
+}
+
+.textodoajudar{
+  color:#086B67;
+  background-color: #fffbde;
+  padding: 3dvh;
+  border-radius: 3%;
+}
+
+.ideia{
+  padding-left: 3dvh;
+  padding-right: 3dvh;
+}
+
+.textodaideia{
+  color:#086B67;
+  background-color: #fffbde;
+  padding: 3dvh;
+  border-radius: 3%;
+}
+
 .container{
   display: flex;
   align-items: center;
   color: #086B67;
+  background-color:#fffbde;
   gap: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .desenvolvedor {
